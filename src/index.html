@@ -1,24 +1,36 @@
-<!doctype html>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
  
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+.header {
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
  
-  <title>GitHub Flow Course</title>
-  <meta name="description" content="GitHub Flow Course">
-  <meta name="author" content="Johannes Kettmann">
+.footer {
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid black;
+}
  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" href="styles.css">
-</head>
+.content {
+  min-height: calc(100vh - 100px);
+  width: 720px;
+  margin: auto;
+}
  
-<body>
-  <header class="header">
-    Header
-  </header>
-  <main class="content"></main>
-  <footer class="footer">
-    Footer
-  </footer>
-</body>
-</html>
+.section {
+  height: 450px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
